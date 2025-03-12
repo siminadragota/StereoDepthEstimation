@@ -1,0 +1,17 @@
+name: cv_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyter
+  - jupyterlab
+  - notebook
+  - nb_conda
+  - nb_conda_kernels
+  - ipywidgets
+  - pip
+  - numpy
+  - pip:
+      - k3d
+      - matplotlib
