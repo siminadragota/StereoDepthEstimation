@@ -1,7 +1,6 @@
 
 # StereoDepthEstimation
-
-This repository facilitates the training of **PointPillars** on point clouds generated from disparity images. The results of this project will be stored in the **results** folder.
+This project is designed to train **PointPillars**, an efficient 3D object detection method, using point clouds that are generated from disparity images. The project involves several steps, including setting up the necessary repositories, generating disparity point clouds, preparing the data, and training the model.
 
 ## Setting Up the Environment
 
@@ -14,19 +13,16 @@ conda activate cv_env
 
 This will install all the necessary dependencies for the project.
 
-## Overview
 
-This project is designed to train **PointPillars**, an efficient 3D object detection method, using point clouds that are generated from disparity images. The project involves several steps, including setting up the necessary repositories, generating disparity point clouds, preparing the data, and training the model.
+## Visualizing Point Clouds and Predictions
 
-The general flow of the project is as follows:
+You can visualize the point clouds by opening the following two Jupyter notebook files:
 
-1. Clone and set up the required repositories.
-2. Generate disparity images using **PSMNet**.
-3. Generate point clouds from the disparity images.
-4. Prepare the data for **PointPillars**.
-5. Train the **PointPillars** network.
+- **`PC_visualisation.ipynb`**: This notebook plots the two point clouds.
+- **`detections_visualization.ipynb`**: This notebook displays the point clouds along with predictions and ground truth data.
 
-The results and outputs of this project can be found in the **results** directory.
+Simply open these notebooks in Jupyter to explore the visualizations.
+
 
 ## Repositories and Directory Structure
 
