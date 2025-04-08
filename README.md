@@ -1,5 +1,5 @@
 
-# StereoDepthEstimation
+# PointPillars-Based Object Detection Using 3D Point Clouds from Stereo Disparity
 This project is designed to train **PointPillars**, an efficient 3D object detection method, using point clouds that are generated from disparity images. The project involves several steps, including setting up the necessary repositories, generating disparity point clouds, preparing the data, and training the model.
 
 ## Setting Up the Environment
